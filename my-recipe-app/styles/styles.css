@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    border-bottom: 2px solid black;
+    background-color:honeydew;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.nav-items{
+    display: flex;
+    gap: 15px;
+}
+.nav-items li{
+   list-style-type: none;
+}
+.nav-items a{
+   text-decoration: none;
+}
+.nav-items a:visited{
+   color: black;
+}
+.nav-items a:hover{
+    color: orange;
+}
+.logo{
+    color: orange;
+}
